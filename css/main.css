@@ -164,7 +164,7 @@ a:after {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	 
+
 	width: 100%;*/
 
     -webkit-background-size: 100%;
@@ -180,12 +180,12 @@ a:after {
 
 #headerwrap h1 {
 	font-size: 80px;
-	color: white;
+	color: #00A19C;
 }
 
 #headerwrap h3 {
 	font-size: 20px;
-	color: white;
+	color: #00A19C;
 }
 
 /* Intnro Wrap */
