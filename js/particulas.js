@@ -81,7 +81,7 @@ particlesJS('particles-js',
       },
       "onclick": {
         "enable": true,
-        "mode": "remove"
+        "mode": "push" //push - remove - bubble - repulse
       },
       "resize": true
     },
