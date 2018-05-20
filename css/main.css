@@ -63,7 +63,7 @@ a:after {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 4px solid #ccc;
     margin: 1em 0;
     padding: 0;
 }
@@ -181,12 +181,14 @@ a:after {
 
 #headerwrap h1 {
 	font-size: 80px;
-	color: #00A19C;
+	color: #eff1f1bd;
+  font-family: 'Play', sans-serif;
 }
 
 #headerwrap h3 {
-	font-size: 20px;
-	color: #00A19C;
+	font-size: 30px;
+	color: #eff1f1bd;
+  font-family: 'Patrick Hand',monospace;
 }
 
 /* Intnro Wrap */
@@ -219,6 +221,10 @@ a:after {
 
 #skillswrap h5, p {
 	color: white;
+}
+#skillswrap p {
+	font-family: 'Play', sans-serif;
+  font-size: 20px;
 }
 
 #footwrap {
@@ -272,6 +278,7 @@ a:after {
 .desc t {
 	color: #34495e;
 	font-weight: 700;
+  font-size: 20px;
 }
 
 .desc imp {
@@ -281,12 +288,12 @@ a:after {
 }
 
 .desc more {
-	color: #95a5a6;
+	color: #black;
 }
 
 
 sm {
-	font-size: 12px;
+	font-size: 20px;
 }
 
 /* Estilos Nuevos Headers*/
@@ -357,4 +364,9 @@ img.img-efecto{
 }
 img.img-efecto:hover{
   filter: opacity(.9);
+}
+
+#porTitle{
+  font-size: 25px;
+  font-family: 'Play', sans-serif;
 }

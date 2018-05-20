@@ -373,7 +373,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 4px solid #34485e;
 }
 
 .sr-only {
@@ -518,7 +518,7 @@ h4,
 
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 25px;
 }
 
 h6,
