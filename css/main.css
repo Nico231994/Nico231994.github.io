@@ -370,3 +370,6 @@ img.img-efecto:hover{
   font-size: 25px;
   font-family: 'Play', sans-serif;
 }
+li.menu-item i:hover{
+  color: #bdc3c8;
+}
