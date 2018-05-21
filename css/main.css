@@ -118,7 +118,14 @@ a:after {
     padding: 0;
 }
 
+#skillsIcons i {
+  color: green;
+}
 
+#skillsIcons{
+  font-size: 20px;
+  font-family: 'Play', sans-serif;
+}
 #section-topbar ul#nav a {
   display: block;
   font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -183,6 +190,11 @@ a:after {
 	font-size: 80px;
 	color: #eff1f1bd;
   font-family: 'Play', sans-serif;
+  transition: .2s;
+}
+#headerwrap h1:hover {
+    color: #55bd9c;
+
 }
 
 #headerwrap h3 {
@@ -190,7 +202,16 @@ a:after {
 	color: #eff1f1bd;
   font-family: 'Patrick Hand',monospace;
 }
-
+#headerwrap h3:hover {
+  color: #55bd9c;
+}
+#headerwrap a {
+  margin: 10px;
+  color: #bcc3c7ab;
+}
+#headerwrap a:hover {
+  color: #55bd9c;
+}
 /* Intnro Wrap */
 
 #intro {
@@ -352,8 +373,10 @@ img#logo{
 	margin-right: 30px;
 	margin-top: 150px;
   width: 250px;
+
 	-webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
 }
+
 
 #body{
 	width: 100%;
