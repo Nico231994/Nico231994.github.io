@@ -351,6 +351,7 @@ img#logo{
 	margin-left: 30px;
 	margin-right: 30px;
 	margin-top: 150px;
+  width: 250px;
 	-webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
 }
 
